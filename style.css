@@ -1,0 +1,14 @@
+:root{
+    --blue: rgb(163, 163, 250);
+    --orange: rgb(255, 205, 111);
+}
+body {
+    background-color: var(--blue)
+}
+
+.ball {
+    width: 100px;
+    height: 100px;
+    background-color: var(--orange);
+    border-radius: 50px;
+}
